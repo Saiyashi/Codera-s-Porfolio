@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav,
+.nav-links{
+    display: flex;
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+a:hover{
+    color:red;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181,181,181);
+}
+.logo{
+    font-size: 2rem;
+
+}
+.logo:hover{
+    cursor: pointer;
+    color: rgb(0, 68, 255)
+}
+.about-pic{
+    height:200px;
+}
+.header{
+    background-color: aqua;
+}
+.profilepic{
+    border-radius: 50%;
+    height: 120px;
+}
+.lorence-pic{
+    border-radius: 50%;
+    height: 450px;
+}
+.mid{
+    text-align: center;
+}
+.gitna{
+    font-size: 30px;
+    text-align: center;
+}
+.front{
+    margin-bottom: 200px;
+}
+.name{
+    text-align: center;
+    font-size: 30px;
+
+}
+.nick{
+    margin-top: 50px;
+}
+.educ{
+    margin-top: 50px;
+}
+.midd{
+    text-align: center;
+    font-size: 30px;
+}
+.stu{
+    margin-bottom: 200px;
+}
+.pro{
+    text-align: center;
+    font-size: 80px;
+}
+.act1{
+    text-align: center;
+    font-size: 40px;
+}
+.act2{
+    text-align: center;
+    font-size: 40px;
+}
+.act3{
+    text-align: center;
+    font-size: 40px;
+}
